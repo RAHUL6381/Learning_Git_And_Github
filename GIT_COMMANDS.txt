@@ -1,0 +1,37 @@
+git config --global user.name Rahul  #user name
+
+git config --global user.email rahulrahulking7777@gmail.com #usermail
+
+#to check name and mail
+git config --global user.name
+git config --global user.email
+
+#to initilise the git folder
+git init
+
+# it gives all hidden folders
+ls -lart
+
+#it show all file name where change happend  (untraced files in red color)
+git status
+
+#to add file to staging area (stage files in green color) 
+git add filename ,eg: git add index.html
+
+git add -A  #all files (untrack to stage)
+
+#in git to start traking we need to start with initial tracking , then main
+git commit
+    then file editor will open , where click "i"button then write comment then press "esc" button and finally type ':wq'  w means save file q quit
+
+#to create new file 
+touch filename eg: touch about.html
+
+
+
+
+
+
+
+
+
